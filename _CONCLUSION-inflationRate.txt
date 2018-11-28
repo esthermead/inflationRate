@@ -1,0 +1,64 @@
+_CONCLUSION-MLPlinear4-inflationRate
+
+OVERALL CONCLUSION:
+model works better than all else so far (when i standardized both features. see .ipynb online.
+
+======MLPlinear4-inflationRate begin
+try these alphas, iterations combos (format=alpha, iterations, result(inflationRate_raw.txt for inflationRate= 9 and 36); true= x, x
+0.001, 2000, overflow errors.
+0.001, 150000, overflow errors.
+0.0025, 375,
+0.003, 500, 
+0.01, 1500, 
+0.02, 3000, 
+0.04, 6000, 
+0.05, 7500, 
+0.10, 15000, 
+0.25, 37500, 
+0.5, 150000, overflow errors.
+#conclusion: since overflow errors, going on to try with standardized data.
+
+try these alphas, iterations combos (format=alpha, iterations, result(inflationRate_stdscaler.txt for inflationRate= 9 and 36); true= -0.1195382, -0.5260434
+0.001, 2000, overflow errors. BUT THE SCATTERPLOT SCALE IS SHOWING UP WRONG FOR INFLATON RATE. GOING TO TRY QUITTING ALL AND RESTARTING SO TO CLEAR MEMORY MAYBE.
+0.001, 150000, 
+0.0025, 375,
+0.003, 500, 
+0.01, 1500, 
+0.02, 3000, 
+0.04, 6000, 
+0.05, 7500, 
+0.10, 15000, 
+0.25, 37500, 
+0.5, 150000, 
+
+============MLPlinear4-inflationRate end; conclusion: .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
