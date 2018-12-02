@@ -31,6 +31,20 @@ try these alphas, iterations combos (format=alpha, iterations, result(inflationR
 0.25, 37500, 
 0.5, 150000, 
 
+when use "inflationRate-raw_outliers_trimmed_standardized_both_features.txt", test for inflationRate values of -0.251 and 0.085, when true = -0.399365007 and 0.063928696.
+0.003, 2000, -0.387970, -0.368918. <--the one shown in project presentation.
+
+overall conclusion:
+when use "inflationRate-raw_outliers_trimmed_standardized_both_features.txt"
+and alpha = 0.003
+and iterations = 2000
+contour line can be generated.
+a cost curve can be generated.
+and when try to predict refugee counts based on inflationRate values of -0.251 and 0.085,
+the predicted values were -0.387970 and -0.368918, respectively.
+but the true refugee values (see dataset) were -0.399365007 and 0.063928696.
+So, although, not perfect, this model seems to predict closer than any other of our tested features so far.
+
 ============MLPlinear4-inflationRate end; conclusion: .
 
 
